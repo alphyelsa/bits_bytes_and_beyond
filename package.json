@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://alphyelsa.github.io/bits_bytes_and_beyond/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
