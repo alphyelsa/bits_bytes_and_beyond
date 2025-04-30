@@ -17,6 +17,12 @@ jobs:
       - name: Build the project
         run: npm run build
 
+      - name: Debug Token
+        run: echo "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Debug Directory
+        run: ls -la ./dist
+
 #      - name: Deploy to GitHub Pages
 #        uses: peaceiris/actions-gh-pages@v4
 #        with:
